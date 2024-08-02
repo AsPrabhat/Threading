@@ -9,7 +9,7 @@ Here two techniques are applied for computing the resultant matrix in parallel:
 
 2. Mixed: Here, the rows of the resultant matrix are evenly distributed among the threads. Thread1 will be responsible for the following rows of the C matrix: 1, k+1, 2*k+1 ....,. Similarly, thread2 will be responsible for the following rows of the C matrix: 2, k+2, 2*k+2 ....,. This pattern continues for all the threads.
 
-### 2. Project 2 - Using thread afnity in matrix multiplication
+### 2. Project 2 - Using thread affinity in matrix multiplication
 To evaluate the efficiency of a parallel matrix squaring algorithm by studying the impact of assigning individual threads to CPU cores. In this project, I've built upon my previous work measuring the performance of calculating the square of matrix A in parallel in C++.
 
 ### 3. Project 3 - Dynamic matrix squaring
